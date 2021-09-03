@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Back End Assessment</title>
+  </head>
+  <body class="container">
+    <div class="getButtons">
+      <button id="complimentButton" class="button">Get a compliment</button>
+      <br />
+      <button id="fortuneButton" class="button">Get your fortune</button>
+      <br />
+      <button id="quoteButton" class="button">Get a Quote</button>
+    </div>
+
+    <form id="color-selector">
+      <label for="color-selector">Background Color</label>
+      <div id="color-buttons">
+        <button class="button">lightpink</button>
+        <button class="button">Purple</button>
+        <button class="button">lightblue</button>
+        <button class="button">Grey</button>
+        <button class="button">lightcoral</button>
+        <button class="button">lightgreen</button>
+      </div>
+    </form>
+
+    <content id="get-poster">
+      <button id="get-poster-button" class="button">Get a poster</button>
+      <div id="poster"></div>
+    </content>
+
+    <form id="comments-form">
+      <label for="comment">Comment!!</label>
+      <input type="text" id="comment" placeholder="Leave a kind comment!" />
+      <input type="submit" class="button" />
+    </form>
+    <content id="comment-container"> </content>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
